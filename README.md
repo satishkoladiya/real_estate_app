@@ -1,16 +1,38 @@
-# real_estate_app
+# Tech Task
 
-A new Flutter project.
+### Table of contents
 
-## Getting Started
+- [Application structure](#project-structure)
+- [Figma design ](#figma-design)
+- [APK ](#APK)
 
-This project is a starting point for a Flutter application.
+### Dribble design
 
-A few resources to get you started if this is your first Flutter project:
+https://dribbble.com/shots/23780608-Real-Estate-App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### APK
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/satishkoladiya/real_estate_app/releases/tag/apk
+
+### Application structure
+
+your application structure should look like this:
+
+```
+├── Android                         - It contains files required to run the application on an Android platform.
+├── assets                          - It contains all images of your application.
+├── font                            - It contains all fonts of your application.
+├── iOS                             - It contains files required to run the application on an iOS platform.
+├── lib                             - The most important folder in the application, used to write most of the Dart code.
+    ├── main.dart                   - Starting point of the application
+    ├── screens
+    │   ├── home_screen             - It contains home screen
+    │   └── map_screen              - It contains map screen
+    │   
+    ├── view_models                 - It contains view models used in screen
+    ├── widgets                     - It contains widgets on the screens
+    ├── utility                     - It contains common files and utilities of the application
+    └── config
+         └── assets                 - It contains generalised image for app
+         └── theme                  - It contains theme and colors
+```
